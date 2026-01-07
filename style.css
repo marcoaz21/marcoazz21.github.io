@@ -376,4 +376,19 @@ footer {
     .contatti-grid {
         grid-template-columns: 1fr;
     }
+
+    .card-link {
+    text-decoration: none;
+    color: inherit;
 }
+
+.card-link h3 {
+    color: var(--accent-soft);
+}
+
+.card-link:hover h3 {
+    color: #ffffff;
+}
+
+}
+
