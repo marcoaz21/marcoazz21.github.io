@@ -389,6 +389,15 @@ footer {
 .card-link:hover h3 {
     color: #ffffff;
 }
+.cards a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.cards a:visited {
+    color: inherit;
+}
 
 }
+
 
