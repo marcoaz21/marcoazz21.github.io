@@ -52,11 +52,21 @@ header {
 
 /* Logo */
 
-.logo {
-    display: flex;
-    align-items: center;
-    gap: 10px;
+/* Logo immagine */
+.logo img,
+.logo-img {
+    height: 60px;
+    width: auto;
+    display: block;
 }
+
+.logo-img:hover {
+    filter: brightness(1.15);
+    transform: scale(1.03);
+    transition: 0.2s;
+}
+
+
 
 .logo-mark {
     width: 38px;
@@ -396,3 +406,4 @@ footer {
         grid-template-columns: 1fr;
     }
 }
+
