@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>Thunder Garage - Officina Moto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">Thunder Garage</div>
+            <ul class="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#servizi">Servizi</a></li>
+                <li><a href="#moto">Moto usate</a></li>
+                <li><a href="#chi-siamo">Chi siamo</a></li>
+                <li><a href="#contatti">Contatti</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero" class="hero">
+        <div class="hero-text">
+            <h1>Officina moto & garage specializzato</h1>
+            <p>Manutenzione, preparazioni e vendita moto usate.</p>
+            <a href="#servizi" class="btn">I nostri servizi</a>
+        </div>
+    </section>
+
+    <section id="servizi" class="section">
+        <h2>Servizi</h2>
+        <div class="cards">
+            <div class="card">
+                <h3>Tagliandi completi</h3>
+                <p>Cambio olio, filtri, controllo freni e sicurezza.</p>
+            </div>
+            <div class="card">
+                <h3>Preparazioni special</h3>
+                <p>Assetto, scarichi, dettagli estetici per uso stradale.</p>
+            </div>
+            <div class="card">
+                <h3>Diagnosi e riparazioni</h3>
+                <p>Elettronica, iniezione, problemi di avviamento e altro.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="moto" class="section section-alt">
+        <h2>Moto usate</h2>
+        <div class="cards">
+            <div class="card moto-card">
+                <h3>Yamaha YZ 250F</h3>
+                <p>Anno 2019 · Enduro · 120 h</p>
+                <p class="price">4.500€</p>
+            </div>
+            <div class="card moto-card">
+                <h3>KTM EXC 300</h3>
+                <p>Anno 2018 · 2T · Perfetta per enduro</p>
+                <p class="price">5.200€</p>
+            </div>
+            <div class="card moto-card">
+                <h3>Honda CRF 450R</h3>
+                <p>Anno 2020 · Cross · Unico proprietario</p>
+                <p class="price">6.000€</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="chi-siamo" class="section">
+        <h2>Chi siamo</h2>
+        <p class="text-center">
+            Thunder Garage è una piccola officina specializzata in moto da strada, enduro e cross.
+            Ci occupiamo sia di manutenzione che di preparazioni per uso amatoriale e pista.
+        </p>
+    </section>
+
+    <section id="contatti" class="section section-alt">
+        <h2>Contatti</h2>
+        <div class="contatti-grid">
+            <div>
+                <p><strong>Indirizzo</strong><br>
+                Via delle Ruote 46, 00100 Roma</p>
+
+                <p><strong>Telefono</strong><br>
+                333 1234567</p>
+
+                <p><strong>Email</strong><br>
+                info@thundergarage.it</p>
+            </div>
+
+            <form class="contact-form">
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" placeholder="Il tuo nome">
+
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="tua@mail.it">
+
+                <label for="messaggio">Messaggio</label>
+                <textarea id="messaggio" rows="4" placeholder="Scrivi qui..."></textarea>
+
+                <button type="submit" class="btn">Invia</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 Thunder Garage - Sito scolastico di esempio</p>
+    </footer>
+</body>
+</html>
