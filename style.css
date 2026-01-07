@@ -50,10 +50,13 @@ header {
     border-bottom: 1px solid #261010;
 }
 
-/* Logo */
+/* Logo con immagine */
 
-/* Logo immagine */
-.logo img,
+.logo {
+    display: flex;
+    align-items: center;
+}
+
 .logo-img {
     height: 60px;
     width: auto;
@@ -61,46 +64,9 @@ header {
 }
 
 .logo-img:hover {
-    filter: brightness(1.15);
-    transform: scale(1.03);
+    filter: brightness(1.08);
+    transform: scale(1.02);
     transition: 0.2s;
-}
-
-
-
-.logo-mark {
-    width: 38px;
-    height: 38px;
-    border-radius: 999px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 15px;
-    font-weight: 700;
-    text-transform: uppercase;
-    color: #fff;
-    background:
-        radial-gradient(circle at 30% 30%, #ffffff33 0, transparent 40%),
-        radial-gradient(circle at 70% 70%, #ff665533 0, transparent 55%),
-        linear-gradient(135deg, #ff3b3b, #8b0000);
-    box-shadow: 0 0 12px rgba(229, 57, 53, 0.7);
-}
-
-.logo-text {
-    display: flex;
-    flex-direction: column;
-    line-height: 1.1;
-}
-
-.logo-title {
-    font-size: 17px;
-    font-weight: 700;
-    letter-spacing: 0.6px;
-}
-
-.logo-subtitle {
-    font-size: 11px;
-    color: var(--text-muted);
 }
 
 /* Menu */
@@ -171,6 +137,11 @@ header {
     color: var(--text-muted);
     margin-bottom: 18px;
     max-width: 460px;
+}
+
+.hero p {
+    font-size: 16px;
+    margin-bottom: 15px;
 }
 
 /* Bottone */
@@ -406,4 +377,3 @@ footer {
         grid-template-columns: 1fr;
     }
 }
-
