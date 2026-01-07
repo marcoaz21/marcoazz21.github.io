@@ -397,7 +397,25 @@ footer {
 .cards a:visited {
     color: inherit;
 }
+    .btn-card {
+    display: inline-block;
+    margin-top: 14px;
+    padding: 6px 14px;
+    border-radius: 6px;
+    background-color: var(--accent);
+    color: white;
+    font-size: 13px;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.btn-card:hover {
+    background-color: var(--accent-soft);
+    transform: translateY(-1px);
+}
+
 
 }
+
 
 
